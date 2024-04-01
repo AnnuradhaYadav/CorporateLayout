@@ -27,12 +27,12 @@
 }
 @media screen and (max-width:1199px){
 .navigation>ul>li>i {
-        font-size: 18px;
+        font-size: 20px;
         color: #000;
-        margin-left: 3px;
         position: absolute;
         right: -17px;
-        top: 42px;
+        top: 10px;
+        margin-right: 30px;
     }
 .banner-text h1 {
     font-size: 42px !important;
@@ -124,6 +124,7 @@
 }
 .navigation>ul>li+li {
     padding-left: 10px;
+    width: 100%;
 }
 .navigation>ul>li>i {
     font-size: 18px;
@@ -136,6 +137,8 @@
 .navigation .drop-menu {
     left: 87px;
     top: 26px;
+    position: static;
+    width: 100%;
 }
 .header.open-menu .header-menu{
     visibility: visible;
