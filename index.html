@@ -414,9 +414,10 @@
         $(document).ready(function () {
             $('.toggle-bar').click(function () {
                 $('.header').toggleClass('open-menu')
+                $('.drop-menu').removeClass('open-drop-menu');
             });
             $('.fa-angle-down').click(function(){
-                $('.drop-menu').toggleClass('open-drop-menu')
+                $('.drop-menu').toggleClass('open-drop-menu');
             });
         })
 
