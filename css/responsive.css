@@ -142,8 +142,10 @@
 }
 .navigation .drop-menu.open-drop-menu{
     display: block;
+    visibility: visible !important;
 }
 .navigation ul li:hover .drop-menu {
+    visibility: hidden;
     display: none;
 }
 .header.open-menu .header-menu{
