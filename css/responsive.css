@@ -143,6 +143,9 @@
 .navigation .drop-menu.open-drop-menu{
     display: block;
 }
+.navigation ul li:hover .drop-menu {
+    display: none;
+}
 .header.open-menu .header-menu{
     visibility: visible;
 }
