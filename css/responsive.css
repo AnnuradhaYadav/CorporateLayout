@@ -138,6 +138,10 @@
     top: 26px;
     position: static;
     width: 100%;
+    display: none;
+}
+.navigation .drop-menu.open-drop-menu{
+    display: block;
 }
 .header.open-menu .header-menu{
     visibility: visible;
